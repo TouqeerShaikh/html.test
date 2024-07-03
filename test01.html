@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 01</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        h1 {
+            color: red;
+        }
+        i {
+            color: black;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <a href="./index.html"><button>Back</button></a>
+    <br>
+    <center>
+        <h1><i class="fa-solid fa-user-tie"></i> Employee Registration Form</h1>
+        <form action="./thanks.html">
+        <table>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="radio" name="gender">Mr.
+                    <input type="radio" name="gender">Mrs.
+                    <input type="radio" name="gender">Ms.
+                </td>
+            </tr>
+            <tr>
+                <td><label for="first">First Name</label></td>
+                <td><input type="text" id="first" placeholder="First Name"></td>
+            </tr>
+            <tr>
+                <td><label for="last">Last Name</label></td>
+                <td><input type="text" id="last" placeholder="Last Name"></td>
+            </tr>
+            <tr>
+                <td><label for="email1">Mail Address1</label></td>
+                <td><input type="text" id="email1"></td>
+            </tr>
+            <tr>
+                <td><label for="email2">Mail Address2</label></td>
+                <td><input type="text" id="email2"></td>
+            </tr>
+            <tr>
+                <td><label for="city">City</label></td>
+                <td><input type="text" id="city"></td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td><select name="state" id="">
+                    <option value="state">Gujrat</option>
+                    <option value="state">Nepal</option>
+                    <option value="state">Gujranwala</option>
+                    <option value="state">Sahiwal</option>
+                    <option value="state">Lahor</option>
+                    <option value="state">Multan</option>
+                    <option value="state">Karachi</option>
+                    <option value="state">Hyderabad</option>
+                    <option value="state">Mirpur</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="zip">Zip</label></td>
+                <td><input type="number" id="zip"></td>
+            </tr>
+            <tr>
+                <td><label for="upload">Upload Photo</label></td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td><label for="email">E-Mail</label></td>
+                <td><input type="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="mob">Mobile</label></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Languages Known</td>
+                <td><input type="checkbox" id="gujrati"><label for="gujrati">Gujrati</label></td>
+            </tr>
+            <tr>
+                <td rowspan="3"></td>
+                <td><input type="checkbox" id="hindi"><label for="hindi">Hindi</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="english"><label for="english">English</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="marathi"><label for="marathi">Marathi</label></td>
+            </tr>
+            <tr>
+                <td><label for="add">Additional Information</label></td>
+                <td><textarea name="" id="add" cols="25" rows="4" placeholder="Optional"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button>Submit</button> <button><a href="./test01.html">reset</a></button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </center>
+</body>
+</html>

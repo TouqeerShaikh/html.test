@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 04</title>
+    <style>
+    #contenar {
+        display: flex;
+        width: 50vw;
+    }
+    h1 {
+        margin-left: 9vw;
+    }
+    .div1 {
+        width: 15%;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    </style>
+</head>
+<body>
+    <a href="./index.html"><button>Back</button></a>
+    <br>
+    <h1>Novell Services Login</h1>
+        <div id="contenar">
+      <br />
+        <div class="div1">
+            <label for="user">Username:</label>
+            <br><br>
+            <label for="pass">Password:</label>
+            <br><br>
+            <label for="city">City of Employment:</label>
+            <br><br>
+            <label for="web">Web server:</label>
+            <br><br><br><br><br>
+            Please specify your role:
+            <br><br><br><br>
+            Single Sing-on to the following:
+
+        </div>
+        <div class="div2">
+          <form action="./thanks.html">
+            <input type="text" id="user">
+            <br><br>
+            <input type="password" id="pass" required>
+            <br><br><br>
+            <input type="text" id="city">
+            <br><br>
+            <select name="web server" id="web">
+                <option value="" disabled selected>-Choose a server</option>
+                <option value="">pakistan</option>
+                <option value="">bangla</option>
+                <option value="">UAE</option>
+                <option value="">U.S</option>
+                <option value="">germany</option>
+            </select>
+            <br><br><br>
+            <input type="radio" name="specify" id="admen"> <label for="admen">Admin</label>
+            <br>
+            <input type="radio" name="specify" id="engineer"> <label for="engineer">engineer</label>
+            <br>
+            <input type="radio" name="specify" id="manager"> <label for="manager">Manager</label>
+            <br>
+            <input type="radio" name="specify" id="guest"> <label for="guest">Guest</label>
+            <br><br><br>
+            <input type="checkbox" id="mail"><label for="mail">Mail</label>
+            <br>
+            <input type="checkbox" id="payroll"><label for="payroll">Payroll</label>
+            <br>
+            <input type="checkbox" id="self"><label for="self">Self-service</label>
+            <br><br>
+            <button>Login</button> <button><a href="./test04.html">Reset</a></button>
+          </form>
+        </div>
+      </div>
+</body>
+</html>
